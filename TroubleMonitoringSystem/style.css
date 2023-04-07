@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(221, 229, 255);
+}
+
+
+header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+header .logo h1 {
+    margin-bottom: 0;
+}
+
+main {
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main .login {
+    width: 30vw;
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-color: #edefff;
+    box-shadow: 0px 4px 8px 2px rgba(27,27,27,0.1);
+-webkit-box-shadow: 0px 4px 8px 2px rgba(27,27,27,0.1);
+-moz-box-shadow: 0px 4px 8px 2px rgba(27,27,27,0.1);
+}
+
+main .login .icon {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+main .login .icon img {
+    width: 60px;
+    height: 60px;
+    margin: 0 0 40px 0;
+}
+
+main .login .heading h3 {
+    margin: 0 0 40px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+main .login form input {
+    font-size: 14px;
+}
+
+main .login .forgotpassword {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer {
+    width: 100vw;
+    padding: 5px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: rgb(103, 103, 103);
+}
+
+footer p span a {
+    text-decoration: none;
+}
